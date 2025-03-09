@@ -1,0 +1,23 @@
+package oops;
+public class persion{
+    persion(){
+        System.out.println("this is def . cons. !!!");
+
+    }
+    persion(int a){
+        System.out.println("this is one persion cons.!!! ");
+    }
+    persion(int a,int b){
+        System.out.println("this is two per cons. !!!");
+
+    }
+    void logic(){
+        System.out.println("this is no logic !!!");
+
+    }
+    public static void main(String[] a){
+        persion p1=new persion();
+        persion p1=new persion(a:12);
+        persion p1=new persion(a:12,b:14);
+    }
+}
